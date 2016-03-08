@@ -58,7 +58,8 @@
 		</nav><!-- #site-navigation -->
 		<nav class="mobile-nav"></nav>
 
-	</header><!-- #masthead -->
+	</header><!-- #masthead --> [soliloquy id="78"] 
+[soliloquy slug="78"]
 	
 	<?php if ( ( get_theme_mod('carousel_display_front') && is_front_page() ) || ( get_theme_mod('carousel_display_archives', '1') && ( is_home() || is_archive() ) ) || ( ( get_theme_mod('carousel_display_singular') && is_singular() ) ) ) : ?>
 		<?php oria_slider_template(); ?>
